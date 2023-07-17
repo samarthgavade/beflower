@@ -1,0 +1,2783 @@
+body{
+    margin: 0px;
+}
+.homepage{
+    margin: 0px;
+    background-color: #134845;
+}
+/* ------------H O M E ---P A G E---------- */
+
+.home_background{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/homepage/flower2-slider-bg.png);
+    background-size: cover;
+    border-style: none;
+    background-color: #134845;
+}
+
+/* ------------NAVBAR--------------- */
+
+
+.navbar{
+    margin: 0px;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(22,67,65);
+    position: fixed;
+    z-index: 10;
+}
+
+/* ---------------TOP NAVBAR LEFT SIDE--------------- */
+
+.navbar_ul{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.anchor_left{
+    text-decoration: none;
+
+}
+.list{
+    font-size: 14px;
+    line-height: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 0px 35px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+.list:hover{
+    color: #67AA25;
+}
+
+
+/* -----------TOP NAVBAR RIGHT SIDE------------*/
+
+.navbar_right_div{
+    padding: 20px;
+    
+}
+.right_anchor{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+#navbar_icon_cart{
+    color: white;
+    padding: 0px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.cart_count{
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+    font-size:14px;
+    text-align: center;
+    background-color: #67AA25;
+    border-radius: 3px;
+    position: absolute;
+    top: -5px;
+    left: 35px;
+}
+.navbar_button{
+    margin: 10px;
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+}
+#right_button_icon{
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.navbar_button:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+/*---------------- Homepage secion1 content---------------- */
+
+
+.homepage_content{
+    height: 560px;
+    width: 600px;
+    margin: 230px 0px 0px 100px;
+    display:inline-block;
+}
+.home_paragraph{
+    margin: 0px;
+    font-size: 101px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 103px;
+}
+
+
+
+#offer_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.offer_b1{
+    margin:100px 0px 0px 0px;
+    height:50px;
+    width:180px;
+    padding: 0px 10px;
+    background-color: #67AA25;
+    border-style: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#b1_icon{
+   padding-left: 10px;
+    font-size: 13px;
+}
+.offer_b1:hover{
+    background-color: darkgreen;
+}
+
+/*--------------- Home section 2 Flower Selection------------- */
+
+.flower_select{
+    margin: 0px;
+    padding: 80px 50px 50px 50px;
+    background-color: #134845;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*------------------ flower section2 content---------------- */
+
+.select_p1{
+    font-size: 64px;
+    color:#F8D2A1;
+    font-family: 'Elsie', cursive;
+}
+.select_p2{
+    font-size: 16px;
+    line-height:2;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.select_ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.select_list{
+    padding: 10px 0px;
+    font-size:16px ;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+#icselect{
+    margin-right: 10px;
+    color: #67AA25;
+}
+.select_button{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #67AA25;
+    border-style: none;
+    padding: 15px 30px;
+}
+#ic_select{
+    color: white;
+}
+.select_b2text{
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.select_button:hover{
+    background-color: darkgreen;
+}
+
+/*--------------- section 3 latest products------------- */
+
+.latest_product{
+    margin: 0px;
+    padding: 20px 10px;
+    background-color: #134845;
+}
+.lp_p1{
+    font-size: 24px;
+    color:#F8D2A1;
+    font-family: 'Elsie', cursive;
+    padding-left: 50px;
+}
+.lp_maindiv{
+    display: flex;
+    justify-content: center;
+}
+.lp_subdiv{
+   padding: 10px;
+}
+.lp_picbox{
+    margin: 0px;
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.lp_pic{
+    margin: 0px;
+    border-radius: 10px;
+    height: 290px;
+    width: 290px;
+    transition: transform 0.5s;
+}
+.lp_text{
+    margin: 0px;
+    padding-top: 10px;
+    height: 70px;
+    width: 290px;
+}
+.lp_p2{
+    margin: 0px;
+    text-align: center;
+}
+.lp_name{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    text-decoration: none;
+}
+.lp_price{
+    margin: 10px;
+    font-size: 18px;
+    color: #67AA25;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.lp_pic:hover{
+    transform: scale(1.1);
+}
+
+/*------------------ section 4 tow profile images -----------*/
+
+.profile_flexdiv{
+    margin: 0px;
+    padding: 50px;
+    background-color: #134845;
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile_overflow{
+    margin: 0px;
+    height:600px;
+    width: 600px;
+    overflow: hidden;
+}
+
+   
+.profile_bg1{
+    height:600px;
+    width: 600px;
+    background-image: url(images/homepage/flower2-products-pic10.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+  
+    
+}
+.profile_center{
+    margin: 0px;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(116, 196, 35, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.profile_pictxt{
+    height: 100px;
+    width: 600px;
+    transition: transform 0.5s;
+    
+
+}
+.profile_logo{
+    padding: 0px 230px;
+}
+.profile_text{
+    margin: 15px 0px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.profile_bg1:hover .profile_pictxt{
+    transform: scale(0.8);
+}
+.profile_bg1:hover{
+    transform: scale(1.1);
+}
+.profile_bg1:hover .profile_center{
+    visibility: visible;
+}
+
+
+/* img2 */
+
+.profile_bg2{
+    height:600px;
+    width: 600px;
+    background-image: url(images/homepage/flower2-products-pic9.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.profile_bg2:hover .profile_pictxt{
+    transform: scale(0.8);
+}
+.profile_bg2:hover{
+    transform: scale(1.1);
+}
+.profile_bg2:hover .profile_center{
+    visibility: visible;
+}
+
+/* --------------- packing section 5-------------- */
+
+/* ---------packing maindiv-------------- */
+
+.packing_section{
+    margin: 0px;
+    height: 1300px;
+    background-color: #134845;
+}
+.bg_leaf{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/homepage/flower2-section-bg2.png);
+    background-size: cover;
+}
+.leaf_logo{
+    margin: 0px;
+    padding: 100px 0px 0px 130px;
+    display: flex;
+}
+.logo_leaf{
+    margin: 0px;
+    height: 30px;
+    width: 20px;
+}
+.logo_text{
+    margin: 5px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #5a7f7d;
+    font-family: 'Inter', sans-serif;
+}
+.leaf_bgwhite{
+    height: 700px;
+    width: 1260px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px 40px;
+    position: relative;
+}
+/* -------packing content part--------- */
+
+.packing_content{
+    height: 360px;
+    width: 500px;
+    margin: 80px 0px 0px 70px;
+    display:inline-block;
+}
+.packing_line1{
+    margin: 0px;
+    font-size: 64px;
+    color: #134845;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+.packing_line2{
+    font-size: 16px;
+    color: #a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+#packing_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.packing_b1{
+    margin:40px 0px 0px 0px;
+    height:50px;
+    width:250px;
+    padding: 0px 30px;
+    background-color: #67AA25;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#b2_icon{
+   padding-left: 10px;
+    font-size: 13px;
+}
+.packing_b1:hover{
+    background-color: darkgreen;
+}
+.packing_pic{
+    height: 600px;
+    width: 550px;
+    position: absolute;
+    right: 70px;
+    bottom: 200px;
+}
+
+/* ---------packing 4 icon--------- */
+
+.packing_icon{
+    margin:170px 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.icon_content{
+    margin: 30px;
+    padding: 10px 0px;
+    height: 380px;
+    width: 250px;
+}
+.slide-top{
+    padding: 0px 55px;
+}
+.origin_div{
+    margin: 20px 115px;
+    height: 2px;
+    width: 5px;
+    background-color: #67AA25;
+    visibility: hidden;
+    transition: transform 0.5s;
+    transform-origin: center;
+}
+.icon_content:hover .origin_div{
+    transform: scaleX(20);
+    visibility: visible;
+}
+.icon_content:hover .slide-top{-webkit-animation:slide-top 0.5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top 0.5s cubic-bezier(.25,.46,.45,.94) both}
+
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}}
+
+.icon_line1{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Elsie', cursive;
+    text-align: center;
+    color: white;
+}
+.icon_line2{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #7a8e8d;
+}
+
+/* ------------section 6 footer----------- */
+
+.bottom_footer{
+    background-image: url(images/homepage/flower2-footer-bg.png);
+    background-size: cover;
+    width: 100%;
+}
+.footer_div{
+    padding: 100px 50px;
+    margin:0px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_leftdiv{
+    height: 160px;
+    width: 180px;
+}
+.footer_address{
+    font-size:16px ;
+    line-height:30px;
+    color:#bec7c6;
+    font-family: 'DM Sans', sans-serif;
+}
+.footer_centerdiv{
+    height: 200px;
+    width: 360px;
+}
+.footer_center_icon{
+    margin: 0px 150px;
+}
+.center_line1{
+    font-size:40px ;
+    line-height:45px ;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+}
+.center_line2{
+    text-align: center;
+    font-size:16px ;
+    line-height:30px;
+    color:#67aa25;
+    font-family: 'DM Sans', sans-serif;
+}
+.footer_rightdiv{
+    height: 85px;
+    width: 100px;
+}
+.anchor_right{
+    margin-right:10px;
+    font-size:16px ;
+    line-height:30px ;
+    color:#bec7c6 ;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.anchor_right2{
+    margin:0px 10px 0px 20px;
+    font-size:16px ;
+    line-height:30px ;
+    color:#bec7c6 ;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+
+}
+#ic_right{
+    font-size:16px;
+    line-height: 30px;
+    color: #67aa25;
+
+}
+.anchor_right:hover{
+    color: #67aa25;
+    text-decoration: underline;
+}
+.anchor_right2:hover{
+    color: #67aa25;
+    text-decoration: underline;
+}
+
+/* ---bottom footer ul------------- */
+
+
+.footer_line1{
+    text-align: center;
+    color: #bec7c6;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.anchor_footer{
+    text-decoration: none;
+    color: #bec7c6;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.anchor_footer:hover{
+    color: #67aa25;
+    text-decoration: underline;
+}
+.footer_end{
+    padding-bottom: 30px;
+}
+.footer_ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_li{
+    margin: 0px 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #bec7c6;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.footer_li:hover{
+    color: #67aa25;
+    text-decoration: underline;
+}
+/* --------------end homepage -------end ----end    ----- */
+
+
+/* -----------------Page 2 ------Flower Page ---------------- */
+
+body{
+    margin: 0px;
+}
+/*---------------- flowerpage secion1 content---------------- */
+
+.flowerpage_bg{
+    margin: 0px;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/flowers/flower2-section-bg1.png);
+    background-size: cover;
+    border-style: none;
+    background-color: #134845;
+}
+
+.flowerpage_content{
+    height: 95px;
+    width: 610px;
+    margin: 300px 0px 0px 420px;
+    display:inline-block;
+}
+.flower_paragraph{
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 95px;
+}
+
+/* ------------------- Flower Section 2 --------------------- */
+
+.flower_section2{
+    margin: 0px;
+    padding: 90px 0px 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right_s2{
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+.center_s2{
+    height: 430px;
+    width: 410px;
+    background-color:#599a18;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 5s;
+}
+.s2_line1{
+    text-align: center;
+    margin: 0px;
+    font-size:90px ;
+    line-height: 90px;
+    color:white ;
+    font-family: 'Elsie', cursive;
+}
+.s2_line2{
+    text-align: center;
+    font-size:24px ;
+    line-height:32px ;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+}
+.left_s2{
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+.center_s2:hover{
+    background-color:#67aa25;
+}
+
+
+/* --------------- flower section 3 -------------- */
+
+.flower_section3{
+    margin: 0px;
+}
+.s3_textbox{
+    margin: 0px 300px 30px 300px;
+    /* height: 220px; */
+    width:750px;
+
+}
+.textbox_l1{
+    margin: 0px;
+    font-size:64px ;
+    line-height:72px ;
+    color:#134845;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+}
+.textbox_l2{
+    font-size:16px ;
+    line-height:30px ;
+    color:#a6b2b1;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ---------section 3 hover part ------------ */
+
+.s3_box{
+    margin: 0px 300px 100px 300px;
+    height:200px;
+    width:750px;
+}
+
+.s3box_flex{
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_l1{
+    margin: 20px;
+    font-size:24px ;
+    line-height:35px ;
+    color:#134845;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+}
+
+.box_l2{
+    padding: 15px;
+    display: flex;
+    background-color: #F5F5F5;
+}
+.bx1{
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+.bx2{
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.anchor_boxl2{
+    font-size:16px ;
+    line-height:35px;
+    color:#999999;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.bx1:hover{
+    background-color: #E7E7E7;
+}
+.bx2:hover{
+    background-color: #E7E7E7;
+}
+/* -------button contact flower page2--section 4--- */
+
+#contact_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.contact_b1{
+    margin:50px 0px 100px 550px;
+    height:50px;
+    width:250px;
+    padding: 0px 30px;
+    background-color: #67AA25;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#ic_contact{
+   padding-left: 20px;
+    font-size: 16px;
+}
+.contact_b1:hover{
+    background-color: darkgreen;
+}
+
+
+/* xxxxxxxxxxxxxxxxx end flower page2 xxxxxxxxxxxxxxxxxxxx */
+
+
+
+
+/* -------------------------------------------------------
+            --------products page 4 ------------------
+--------------------------------------------------------- */
+
+
+.productpage_content{
+    height: 95px;
+    width: 610px;
+    margin: 250px 0px 0px 450px;
+    display:inline-block;
+}
+.product_paragraph{
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 95px;
+}
+
+/* -----------------product headbar---------- */
+
+.product_headbar{
+    height: 80px;
+    margin: 50px 50px;
+    background-image: url(images/products/stripes_5_b.png);
+    display: flex;
+    justify-content: space-between;
+}
+.product_result{
+    margin: 30px;
+    font-size: 16px;
+    color:#a8a8a8;
+    font-family: 'DM Sans', sans-serif;
+}
+.sorting{
+    margin:25px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    color: #67aa25;
+    border-style: none;
+    background-color: #E7E7E7;
+    height: 35px;
+
+}
+.sorting_option{
+    border-style: none;
+    color: #67aa25;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+/* ------------ section 1-4 latest product display--------- */
+
+
+.product_maindiv{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.product_subdiv{
+   padding: 10px;
+}
+.product_picbox{
+    margin: 0px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product_pic{
+    margin: 0px;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    transition: transform 0.5s;
+}
+.product_text{
+    margin: 0px;
+    padding-top: 10px;
+    height: 70px;
+    width: 400px;
+}
+.product_p{
+    margin: 0px;
+    text-align: center;
+}
+.product_name{
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    text-decoration: none;
+}
+.product_price{
+    margin: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #67AA25;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.product_pic:hover{
+    transform: scale(1.1);
+}
+
+/* ---- xxxxxxxxx end product page xxxxxxxxxx ----- */
+
+/* -----------------------------------------------------
+------------ About US Page 4 -------------------------
+----------------------------------------------------- */
+
+
+.aboutpage_bg{
+    margin: 0px;
+    height: 1200px;
+    width: 100%;
+    background-image: url(images/about/flower2-section-bg1.png);
+    background-position: center;
+    background-size: cover;
+    border-style: none;
+    background-color: #134845;
+}
+
+.aboutpage_content{
+    height: 95px;
+    width: 610px;
+    margin: 250px 0px 0px 360px;
+    display:inline-block;
+}
+.about_paragraph{
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 95px;
+}
+
+/* ---------------- section 1 buy our flower------------ */
+
+.about_usbg{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* -------ABOUT content part--------- */
+
+.about_content{
+    height: 360px;
+    width: 560px;
+    margin: 80px 0px 0px 0px;
+}
+.about_line1{
+    margin: 0px;
+    font-size: 64px;
+    color: #f2e1cb;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+.about_line2{
+    font-size: 24px;
+    color: #ffffff
+    ;
+    font-family: 'Elsie', cursive;
+    line-height: 32px;
+}
+.about_line3{
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+#about_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.about_b1{
+    margin:30px 0px 0px 0px;
+    height:50px;
+    width:250px;
+    padding: 0px 30px;
+    background-color: #67aa25;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#about_icon{
+   padding-right: 10px;
+    font-size: 13px;
+}
+.about_b1:hover{
+    background-color: darkgreen;
+}
+.about_pic{
+    height: 600px;
+    width: 550px;
+}
+
+/* ---------- about text section 2---------- */
+
+.about_text{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_txt1{
+    margin-top: 100px;
+    width: 600px;
+    font-size: 64px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+.about_txt2{
+    margin-top: 90px;
+    width: 550px;
+
+}
+.about_txt3{
+    font-size:16px;
+    color:#a6b2b1;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+}
+
+/* -------- section 3 -- about page -- 4 pics ---- */
+
+.display_four{
+    margin:0px 50px 50px 50px;
+}
+.about_d4{
+    margin: 10px;
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+}
+/* -----------section about 4------- */
+
+.about_s4{
+    margin: 0px 50px 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s4_txt1{
+    margin-top: 100px;
+    width: 300px;
+    font-size: 40px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 45px;
+}
+#s4_button{
+    text-decoration: none;
+    text-align: center;
+    color:#134845;
+}
+.s4_b1{
+    margin-top: 100px;
+    height:50px;
+    width:220px;
+    padding: 0px 10px;
+    background-color:#f8e9d7 ;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#s4_icon{
+   padding-right: 10px;
+    font-size: 13px;
+    color:#134845;
+}
+.s4_b1:hover{
+    background-color:#f9dfbe ;
+}
+.s4_txt2{
+    margin-top: 80px;
+    width: 430px;
+
+}
+.s4_txt3{
+    font-size:16px;
+    color:#a6b2b1;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+}
+
+/* --------- section 5----------- */
+
+.s5_usbg{
+    margin:0px;
+    padding:100px 50px 10px 50px;
+    background-color: #134845;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* -------ABOUT content part--------- */
+
+.s5_content{
+    height: 405px;
+    width: 700px;
+    margin:0px;
+}
+.s5_line1{
+    margin: 0px;
+    font-size: 64px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+.s5_line2{
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+#s5_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.s5_b1{
+    margin:10px 0px 0px 0px;
+    height:50px;
+    width:180px;
+    padding: 0px 30px;
+    background-color: #67aa25;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+#s5_icon{
+   padding-right: 10px;
+    font-size: 13px;
+}
+.s5_b1:hover{
+    background-color: darkgreen;
+}
+.s5_pic{
+    height: 450px;
+    width: 450px;
+}
+
+/* ------------ section 6 ------------- */
+
+
+.s6_bg{
+    margin: 0px;
+    height: 1200px;
+    width: 100%;
+    background-color: #134845;
+    background-image: url(images/about/flower2-section-bg2.png);
+    background-repeat: no-repeat;
+}
+.s6_flexdiv{
+    padding: 100px 50px 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tree_ic{
+    height:160px;
+    width: 140px;
+}
+#ic_img{
+    margin: 10px 0px 20px 50px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #67aa25;
+
+}
+.icon_count{
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 55px;
+}
+
+.txticon{
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+    color:#dedede;
+    line-height: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.s6_center{
+    width: 610px;
+}
+
+.center_txt1{
+    margin: 0px;
+    text-align: center;
+    font-size: 64px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+
+.center_txt2{
+    text-align: center;
+    font-size: 16px;
+    color:#7a8e8d;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.people_ic{
+    height: 160px;
+    width: 140px;
+}
+
+/* ---------- about us section 7 ------------- */
+
+.s7_icon{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---xxxxxxxxxx end page about us xxxxxxxxxxxxxx ------- */
+/* -----------------------------------------------------
+------------ CONTACT US Page 5 -------------------------
+----------------------------------------------------- */
+
+
+.contactpage_bg{
+    margin: 0px;
+    height: 1400px;
+    width: 100%;
+    background-image: url(images/contact/flower2-section-bg1.png);
+    background-position: center;
+    background-size: cover;
+    border-style: none;
+    background-color: #134845;
+}
+
+.contactpage_content{
+    height: 95px;
+    width: 610px;
+    margin: 250px 0px 0px 380px;
+    display:inline-block;
+}
+.contact_paragraph{
+    text-align: center;
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 95px;
+}
+
+/* ------------ section 1 contact form ------------ */
+
+.formbg_white{
+    margin: 80px 50px;
+    padding: 80px;
+    height: 600px;
+    width: 1100px;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url(images/contact/flower2-footer-bg.png);
+    display: flex;
+}
+
+.contact_form{
+    margin: 0px;
+    height: 550px;
+    width: 550px;
+}
+.form_pic{
+    margin: 0px;
+    height: 550px;
+    width: 550px;
+}
+.form_txt{
+    font-size:40px ;
+    line-height:45px ;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+}
+.form_ip{
+    margin:0px 0px 15px 10px ;
+    padding-left: 10px;
+    border-radius: 60px;
+    border-style: none;
+    color: #134845;
+    height: 30px;
+    width: 480px;
+    background-color: #F4F9F0;
+    font-family: 'DM Sans', sans-serif;
+}
+.form_ipm{
+    margin:0px 0px 15px 10px ;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-style: none;
+    color: #134845;
+    height: 200px;
+    width: 480px;
+    background-color: #F4F9F0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.form_button{
+    margin-left: 10px;
+    border-radius: 60px;
+    height: 40px;
+    width: 480px;
+    font-size: 14px;
+    line-height: 14px;
+    border-style: none;
+    text-transform: uppercase;
+    background-color: #67aa25;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.form_button:hover{
+    background-color: #599a18;
+}
+
+/* ------- section 2 ----------------- */
+
+.call_flex{
+    margin: 0px;
+    background-color:#134845;
+    display: flex;
+    justify-content: space-evenly;
+}
+.call_txt{
+    text-align: center;
+    margin: 0px;
+    font-size: 24px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 32px;
+}
+.call_no{
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 45px;
+}
+
+/* ----------- section 3 --------------- */
+
+.address_div{
+    background-color: #134845;
+    padding: 50px 0px 100px 0px;
+}
+.add_txt{
+    margin-left: 450px;
+    width: 450px;
+}
+.add_l1{
+    text-align: center;
+    font-size: 24px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 32px;
+}
+.add_l2{
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 45px;
+}
+
+/* --------------- section 4 map ------------- */
+
+.google_map{
+    margin: 0px;
+    background-color: #134845;
+    padding: 10px 50px 100px 50px;
+}
+.gmap{
+    height: 350px;
+    width: 1250px;
+}
+/* -------------- xxxxxxxxxxx END PAGE XXXXXXXXXXX------------- */
+
+
+/* ----------------------  DETAIL  PAGE ---------------------- */
+
+/* ------SECTION 1 --------------- */
+.detailpage_bg{
+    margin: 0px;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/detail/flower2-section-bg1.png);
+    background-size: cover;
+    border-style: none;
+    background-color: #134845;
+}
+
+.detailpage_content{
+    height: 95px;
+    width: 610px;
+    margin: 300px 0px 0px 420px;
+    display:inline-block;
+}
+.detail_paragraph{
+    margin: 0px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Elsie', cursive;
+    line-height: 95px;
+}
+
+
+.flower_detail{
+    height: 450px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left_img{
+    height: 500px;
+    width: 500px;
+}
+.right_detail{
+    width: 600px;
+}
+.flower_name{
+    margin: 0px;
+    font-size: 35px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 40px;
+}
+.hr_line{
+    color:  lightgrey;
+}
+.flower_cost{
+    margin: 0px;
+    font-size: 30px;
+    color:#67aa25;
+    font-family: 'Elsie', cursive;
+    line-height: 30px;
+}
+.flower_txt{
+    font-size: 16px;
+    color:#7a8e8d;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.type_box{
+    margin: 0px;
+    width:600px;
+}
+
+.type_flex{
+    background-color:#FCFCFC;
+    display: flex;
+}
+
+.type_l1{
+    margin:10px 120px 10px 30px ;
+    font-size:16px ;
+    line-height:32px ;
+    color:#a6b2b1;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.type{
+    margin:10px;
+    width: 300px;
+    border-radius: 20px;
+    color: #67aa25;
+    border-style: none;
+    background-color: #E7E7E7;
+    height: 35px;
+
+}
+.type_option{
+    border-style: none;
+    color: #67aa25;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.ip_number{
+    padding-left: 10px;
+    margin-top:20px ;
+    height: 40px;
+    width: 50px;
+    border-style: none;
+    border-radius: 60px;
+    background-color: #E7E7E7;
+}
+#type_button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.type_b1{
+    margin-left: 20px;
+    height:40px;
+    width:200px;
+    padding: 0px 30px;
+    background-color: #67AA25;
+    border-style: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+.type_b1:hover{
+    background-color: darkgreen;
+}
+.catogery_txt{
+    color: #a6b2b1;
+    font-size: 16px;
+    line-height:30px ;
+    font-family: 'DM Sans', sans-serif;
+}
+#anchor_catogery{
+    color: #67aa25;
+    text-decoration: none;
+}
+.txt_icon{
+    color: #a6b2b1;
+    font-size: 16px;
+    line-height:30px ;
+    font-family: 'DM Sans', sans-serif;
+}
+#txt_ic{
+    margin-left: 20px;
+    color: #a6b2b1;
+}
+#txt_ic:hover{
+    color: blue;
+}
+
+/* ------------description section 3- ------ */
+
+.description_bg{
+    margin:0px 100px;
+    height: 700px;
+}
+
+
+.desc_p1{
+    margin:10px;
+    color: #67aa25;
+    font-size: 16px;
+    line-height:17px ;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.desc_usbg{
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* -------details content part--------- */
+
+.desc_content{
+    height: 360px;
+    width: 500px;
+    margin: 80px 0px 0px 0px;
+}
+.desc_line1{
+    margin: 0px;
+    font-size: 64px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 74px;
+}
+.desc_line2{
+    font-size: 16px;
+    color: #a6b2b1;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+}
+.desc_flex{
+    display: flex;
+}
+.desc_c1{
+    margin: 0px;
+    color:#a6b2b1;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 16px;
+    line-height:30px ;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.desc_c2{
+    color: #a6b2b1;
+    margin-left: 10px;
+    padding: 20px;
+    width: 400px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.desc_line3{
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.desc_link{
+    font-size: 16px;
+    color:#67aa25;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+#desc_ic{
+    margin-left: 10px;
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+}
+.desc_pic{
+    height: 550px;
+    width: 500px;
+    border-radius: 12px;
+}
+/* -------- detalis page section 4 logo icon-------- */
+
+.description_icon{
+    margin:0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon_bx{
+    margin: 50px;
+    padding: 10px 0px;
+    width: 180px;
+}
+.img_ic{
+    padding: 0px 55px;
+}
+
+.icon_l1{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color:#134845;
+}
+
+/* -------details page section 5 part--------- */
+
+.desc_s5{
+    margin:0px 50px 50px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s5_desc{
+    padding-top: 30px;
+    height: 400px;
+    width: 510px;
+    margin:0px;
+}
+.s5_l1{
+    margin: 0px;
+    font-size: 64px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 72px;
+}
+.s5_l2{
+    font-size: 16px;
+    color:#a6b2b1;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.s5_img{
+    height: 550px;
+    width: 550px;
+}
+
+/* ----------- section6 detalis page-------- */
+
+.d_product{
+    margin: 0px 50px;
+    padding: 20px 10px;
+}
+.d_p1{
+    font-size: 24px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    padding-left: 50px;
+}
+.d_maindiv{
+    display: flex;
+}
+.d_subdiv{
+   padding: 10px;
+}
+.d_picbox{
+    margin: 0px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.d_pic{
+    margin: 0px;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    transition: transform 0.5s;
+}
+.d_text{
+    margin: 0px;
+    padding-top: 10px;
+    height: 70px;
+    width: 400px;
+}
+.d_p2{
+    margin: 0px;
+    text-align: center;
+}
+.d_name{
+    text-align: center;
+    font-size: 24px;
+    color: #134845;
+    font-family: 'Elsie', cursive;
+    text-decoration: none;
+}
+.d_price{
+    margin: 10px;
+    font-size: 18px;
+    color: #67AA25;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.d_pic:hover{
+    transform: scale(1.1);
+}
+
+/* -----------xxxxxxxxxxx end details page xxxxxxxxxxxx---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+.home_background{
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+    }
+.navbar{
+    margin: 0px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.navbar_ul{
+    padding-left: 5px;
+    
+}
+.navbar_logo{
+    margin: 0px;
+    height: 30px;
+}
+.list{
+    font-size: 8px;
+    padding: 0px 10px;
+}
+.navbar_right_div{
+    padding: 0px;
+    width: 80px;
+    
+}
+.right_anchor{
+    font-size: 7px;
+}
+#navbar_icon_cart{
+    margin:20px 0px 0px 20px ;
+    font-size: 12px;
+}
+.cart_count{
+    margin: 0px;
+    height: 7px;
+    width: 7px;
+    font-size:7px;
+    border-radius: 1px;
+    top: 0px;
+    left: 28px;
+}
+.navbar_button{
+    margin-top: 0px;
+    height: 18px;
+    width: 70px;
+    border-radius: 10px;
+}
+#right_button_icon{
+    padding: 2px;
+    font-size: 7px;
+}
+
+
+
+/* section 1 content media screen*/
+/* 560
+600 */
+
+.homepage_content{
+    margin: 380px 0px 0px 30px;
+    height: 230px;
+    width: 430px;
+}
+.home_paragraph{
+    margin: 0px;
+    font-size: 50px;
+    line-height: 1;
+}
+.offer_b1{
+    margin: 30px 0px 0px 0px;
+    height:40px;
+    width:150px;
+    padding: 0px 5px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+#b1_icon{
+   padding-left: 5px;
+    font-size: 12px;
+}
+
+
+
+/* section 2 flower selection media screen */
+
+.flower_select{
+    margin: 0px;
+    padding: 300px 30px 50px 30px;
+    flex-direction: column;
+}
+
+
+/* flower section2 content */
+
+.flower_pic{
+    height: 450px;
+    width: 420px;
+}
+.select_p1{
+    font-size: 35px;
+    margin: 25px 0px;
+}
+.select_p2{
+    font-size: 16px;
+    line-height:1.5;
+}
+.select_list{
+    padding: 3px 0px;
+    font-size:15px;
+}
+#icselect{
+    margin-right: 5px;
+}
+.select_button{
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#ic_select{
+    font-size: 14px;
+    color: white;
+}
+.select_b2text{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+/*---------------- section 3 latest products---------- */
+
+.lp_p1{
+    font-size: 24px;
+    padding-left: 140px;
+}
+.lp_maindiv{
+    flex-direction: column;
+
+}
+.lp_picbox{
+    margin: 0px 70px;
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+}
+.lp_pic{
+    margin: 0px;
+    border-radius: 10px;
+    height: 290px;
+    width: 290px;
+   
+}
+.lp_text{
+    margin: 0px 0px 50px  70px;
+    padding: 15px 0px;
+    height: 70px;
+    width: 290px;
+}
+.lp_p2{
+    margin: 0px;
+}
+.lp_name{
+    font-size: 24px;
+    
+}
+.lp_price{
+    margin: 10px;
+    font-size: 18px;
+}
+
+/*------------------ section 4 tow profile images -----------*/
+
+.profile_flexdiv{
+    margin: 0px;
+    padding: 20px 40px;
+    flex-direction: column;
+}
+.profile_overflow{
+    margin: 20px 0px;
+    height:400px;
+    width: 400px;
+}
+.profile_bg1{
+    margin: 0px;
+    height:400px;
+    width: 400px;
+}
+.profile_center{
+    margin: 0px;
+    height:400px;
+    width: 400px;
+}
+.profile_pictxt{
+    height: 150px;
+    width: 300px;
+}
+.profile_logo{
+    padding: 0px 90px;
+}
+.profile_text{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+.profile_bg2{
+    height:400px;
+    width: 400px;
+}
+
+/* --------section 5 ----------packing safe------ */
+
+.packing_section{
+    margin: 0px;
+    height: 2370px;
+}
+.bg_leaf{
+    height: 300px;
+    width: 100%;
+}
+.leaf_logo{
+    margin: 0px;
+    padding: 50px 0px 0px 65px;
+}
+.logo_leaf{
+    margin: 0px;
+    height: 30px;
+    width: 20px;
+}
+.logo_text{
+    margin: 5px 10px;
+    font-size: 13px;
+}
+.leaf_bgwhite{
+    height: 1000px;
+    width: 430px;
+    border-radius:20px;
+    margin: 20px 20px;
+    flex-direction: column;
+}
+/* -------packing content part--------- */
+
+.packing_content{
+    height: 310px;
+    width: 360px;
+    margin: 50px 0px 0px 35px;
+}
+.packing_line1{
+    margin: 0px;
+    font-size: 50px;
+    line-height: 60px;
+}
+.packing_line2{
+    font-size: 15px;
+    line-height: 30px;
+   
+}
+.packing_b1{
+    margin: 30px 0px 0px 70px;
+    height:40px;
+    width:200px;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+#b2_icon{
+   padding-left: 10px;
+    font-size: 12px;
+}
+.packing_pic{
+    height: 420px;
+    width: 360px;
+    right: 35px;
+    bottom: 200px;
+    top: 450px;
+}
+
+/* ---------packing 4 icon--------- */
+
+.packing_icon{
+    margin:700px 90px;
+   flex-direction: column;
+}
+.icon_content{
+    margin: 30px;
+    padding: 10px 0px;
+    height: 250px;
+    width: 250px;
+}
+.slide-top{
+    padding: 0px 55px;
+}
+.origin_div{
+    margin: 20px 115px;
+    height: 2px;
+    width: 5px;
+}
+.icon_line1{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.icon_line2{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+/* ------------section 6 footer----------- */
+.footer_div{
+    padding: 100px 50px;
+    margin:0px;
+    height: 650px;
+    flex-direction: column;
+}
+.footer_leftdiv{
+    height: 120px;
+    width: 180px;
+}
+.footer_logo{
+    height: 60px;
+    width: 180px;
+}
+.footer_address{
+    font-size:16px ;
+    line-height:30px;
+}
+.footer_centerdiv{
+    height: 200px;
+    width: 360px;
+}
+.footer_center_icon{
+    margin: 150px 180px 0px 180px;
+}
+.center_line1{
+    text-align: center;
+    font-size:30px ;
+    line-height:45px ;
+}
+.center_line2{
+    text-align: center;
+    font-size:16px ;
+}
+.footer_rightdiv{
+    margin: 250px 0px 100px 300px;
+    height: 85px;
+    width: 100px;
+}
+.anchor_right{
+    margin-right:10px;
+    font-size:16px ;
+    line-height:30px ;
+}
+.anchor_right2{
+    margin:0px 10px 0px 20px;
+    font-size:16px ;
+    line-height:30px ;
+}
+
+/* ---bottom footer ul------------- */
+.bottom_footer{
+    background-image: url(images/flower2-footer-bg.png);
+    width: 100%;
+    background-position: center;
+}
+
+.footer_line1{
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+.anchor_footer{
+    font-size: 12px;
+}
+.footer_end{
+    padding-bottom: 30px;
+}
+.footer_li{
+    margin-left: 1px;
+    font-size: 12px;
+}
+
+
+
+/* ------------page 2 flower ------------ */
+
+.flowerpage_bg{
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.flowerpage_content{
+    height: 95px;
+    width: 305px;
+    margin: 100px 0px 0px 170px;
+}
+.flower_paragraph{
+    margin: 0px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+/* ----------- section 1-------------------- */
+
+.flower_section2{
+    margin: 50px 0px;
+    padding: 50px 50px 0px 50px;
+    flex-direction: column;
+}
+.right_s2{
+    margin-bottom: 20px;
+    height: 400px;
+    width: 400px;
+}
+.center_s2{
+    height: 430px;
+    width: 410px;
+    border-radius: 10px;
+}
+.s2_line1{
+   
+    margin: 0px;
+    font-size:90px ;
+    line-height: 90px;
+}
+.s2_line2{
+    font-size:24px ;
+    line-height:32px ;
+}
+.left_s2{
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+/* --------------- flower section 3 -------------- */
+
+.flower_section3{
+    margin: 50px 0px;
+}
+.s3_textbox{
+    margin: 50px;
+    width:400px;
+
+}
+.textbox_l1{
+    margin: 0px;
+    font-size:64px ;
+    line-height:72px ;
+}
+.textbox_l2{
+    font-size:16px ;
+    line-height:30px ;
+}
+
+/* ---------section 3 hover part ------------ */
+.s3_box{
+    margin:0px 50px;
+    height:650px;
+    width:400px;
+}
+.s3box_flex{
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.box_l1{
+    margin: 20px;
+    font-size:16px ;
+    line-height:35px ;
+}
+
+.box_l2{
+    padding: 15px;
+    flex-direction: column;
+}
+.bx1{
+    padding: 5px;
+    height: 30px;
+    border-radius: 8px;
+}
+.bx2{
+    padding: 5px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 8px;
+}
+.anchor_boxl2{
+    font-size:16px ;
+    line-height:35px;
+}
+.contact_b1{
+    margin:50px 0px 50px 140px;
+    height:50px;
+    width:250px;
+    padding: 0px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+#ic_contact{
+   padding-left: 10px;
+    font-size: 16px;
+}
+
+/* -------------------------------------------------------
+            --------products page 4 ------------------
+--------------------------------------------------------- */
+
+
+.productpage_content{
+    height: 95px;
+    width: 310px;
+    margin: 120px 0px 0px 150px;
+}
+.product_paragraph{
+    margin: 0px;
+    font-size: 50px;
+    line-height: 95px;
+}
+
+/* -----------------product headbar---------- */
+
+.product_headbar{
+    height: 80px;
+    margin: 50px 30px;
+}
+.product_result{
+    margin:30px 15px;
+    font-size: 14px;
+}
+.sorting{
+    margin:25px;
+    padding: 0px 5px;
+    height: 30px;
+}
+
+/* ----------- product page section 1 ------------ */
+
+.product_maindiv{
+    margin: 50px 45px;
+    flex-direction: column;
+}
+.product_subdiv{
+    margin:20px 0px ;
+   padding: 0px;
+}
+/* -----------------------------------------------------
+------------ About US Page 4 -------------------------
+----------------------------------------------------- */
+
+
+.aboutpage_bg{
+    margin: 0px;
+    height: 1550px;
+    width: 100%;
+}
+
+.aboutpage_content{
+    height: 50px;
+    width: 310px;
+    margin: 200px 0px 0px 100px;
+}
+.about_paragraph{
+    text-align: center;
+    margin: 0px;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+/* ---------------- section 1 buy our flower------------ */
+
+.about_usbg{
+    margin: 100px 50px;
+    flex-direction: column;
+}
+/* -------ABOUT content part--------- */
+
+.about_content{
+    height: 460px;
+    width: 400px;
+    margin: 80px 0px 0px 0px;
+}
+.about_line1{
+    margin: 0px;
+    font-size: 44px;
+    line-height: 42px;
+    color:#d98921;
+}
+.about_line2{
+    font-size: 24px;
+    line-height: 32px;
+}
+.about_line3{
+    font-size: 18px;
+    line-height: 30px;
+}
+.about_b1{
+    margin:30px 0px 0px 80px;
+    height:50px;
+    width:220px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.about_pic{
+    height: 500px;
+    width: 390px;
+}
+/* ---------- about text section 2---------- */
+
+.about_text{
+    margin: 0px 50px;
+    flex-direction: column;
+}
+.about_txt1{
+    text-align: center;
+    margin-top: 80px;
+    width: 390px;
+    font-size: 44px;
+    color:#134845;
+    font-family: 'Elsie', cursive;
+    line-height: 42px;
+}
+.about_txt2{
+    text-align: center;
+    margin-top: 0px;
+    width: 400px;
+
+}
+.about_txt3{
+    font-size:16px;
+    color:#a6b2b1;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+}
+
+/* -------- section 3 -- about page -- 4 pics ---- */
+
+.display_four{
+    margin:0px 50px 50px 80px;
+}
+.about_d4{
+    margin: 30px;
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+}
+/* -----------section about 4------- */
+
+.about_s4{
+    margin: 0px 50px 100px 50px;
+    flex-direction: column;
+}
+.s4_txt1{
+    margin: 50px 50px 0px 70px;
+    width: 300px;
+    font-size: 40px;
+    line-height: 45px;
+}
+.s4_b1{
+    margin: 50px 50px 0px 100px;
+}
+.s4_txt2{
+    margin: 50px 0px 0px 0px;
+    width: 390px;
+    text-align: center;
+
+}
+/* --------- section 5----------- */
+
+.s5_usbg{
+    margin:0px;
+    padding:100px 50px 10px 50px;
+    background-color: #134845;
+   flex-direction: column;
+}
+/* -------ABOUT content part--------- */
+
+.s5_content{
+    height: 500px;
+    width: 400px;
+    margin:50px 0px 50px 0px;
+}
+.s5_line1{
+    text-align: center;
+    margin: 0px;
+    font-size: 44px;
+    line-height: 52px;
+}
+.s5_line2{
+    text-align: center;
+    margin:50px 0px 50px 0px;
+}
+.s5_b1{
+    margin:10px 0px 0px 100px;
+}
+.s5_pic{
+    height: 390px;
+    width: 390px;
+}
+
+/* ------------ section 6 ------------- */
+
+
+.s6_bg{
+    margin: 0px;
+    height: 2400px;
+    width: 100%;
+}
+.s6_flexdiv{
+    padding: 80px 50px 0px 50px;
+    flex-direction: column;
+}
+
+.tree_ic{
+    margin-left: 120px;
+    height:160px;
+    width: 140px;
+}
+#ic_img{
+    margin: 10px 0px 20px 50px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #67aa25;
+
+}
+.icon_count{
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 55px;
+}
+
+.txticon{
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+    color:#dedede;
+    line-height: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.s6_center{
+    width: 400px;
+}
+
+.center_txt1{
+    margin-top: 30px;
+    font-size: 44px;
+    line-height: 52px;
+}
+.people_ic{
+    margin-left: 120px;
+    height: 160px;
+    width: 140px;
+}
+
+/* ---------- about us section 7 ------------- */
+
+.s7_icon{
+    margin:50px 50px 50px 100px;
+   flex-direction: column;
+}
+
+/* ---xxxxxxxxxx end page about us xxxxxxxxxxxxxx ------- */
+/* ---xxxxxxxxxx end page about us xxxxxxxxxxxxxx ------- */
+/* -----------------------------------------------------
+------------ CONTACT US Page 5 -------------------------
+----------------------------------------------------- */
+
+
+.contactpage_bg{
+    margin: 0px;
+    height: 1400px;
+    width: 100%;
+}
+
+.contactpage_content{
+    height: 95px;
+    width: 390px;
+    margin: 200px 0px 0px 70px;
+    display:inline-block;
+}
+.contact_paragraph{
+    margin: 0px;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+/* ------------ section 1 contact form ------------ */
+
+.formbg_white{
+    margin: 80px 50px;
+    padding: 0px;
+    height: 900px;
+    width: 400px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.contact_form{
+    margin: 0px;
+    height: 850px;
+    width: 360px;
+}
+.form_pic{
+    margin: 20px;
+    height: 350px;
+    width: 350px;
+}
+.form_txt{
+    font-size:30px ;
+    line-height:35px ;
+}
+.form_ip{
+    margin:0px 0px 15px 10px ;
+    padding-left: 10px;
+    border-radius: 60px;
+    height: 30px;
+    width: 350px;
+}
+.form_ipm{
+    margin:0px 0px 15px 10px ;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+}
+
+.form_button{
+    margin-left: 70px;
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+}
+
+/* ------- section 2 ----------------- */
+
+.call_flex{
+    margin: 0px;
+    background-color:#134845;
+    flex-direction: column;
+}
+.call_txt{
+    text-align: center;
+    margin: 0px;
+    font-size: 24px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 32px;
+}
+.call_no{
+    text-align: center;
+    margin-bottom: 120px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 45px;
+}
+
+/* ----------- section 3 --------------- */
+
+.address_div{
+    margin: 0px;
+    background-color: #134845;
+    padding: 0px 0px 0px 0px;
+}
+.add_txt{
+    margin-left: 50px;
+    width: 390px;
+}
+.add_l1{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 24px;
+    color:#f8d2a1;
+    font-family: 'Elsie', cursive;
+    line-height: 32px;
+}
+.add_l2{
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Elsie', cursive;
+    line-height: 45px;
+}
+
+/* --------------- section 4 map ------------- */
+
+.google_map{
+    width: 100%;
+    background-color: #134845;
+    padding-left: 50px;
+}
+.gmap{
+    margin: 0px;
+    height: 350px;
+    width: 390px;
+}
+/* -------------- xxxxxxxxxxx END PAGE XXXXXXXXXXX------------- */
+}
