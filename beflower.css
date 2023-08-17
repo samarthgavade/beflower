@@ -1878,10 +1878,10 @@ body{
 .navbar{
     padding: 0px;
     height: 80px;
-    width: 320px;
+    width: 100%;
 }
 .navbar_ul{
-    padding: 0px;
+    padding: 0px 1px;
     
 }
 .navbar_logo{
@@ -1889,7 +1889,7 @@ body{
 }
 .list{
     font-size: 0.4rem;
-    padding: 0px 1px 0px 1px;
+    padding: 0px 5px;
     line-height: 10px;
 }
 .navbar_right_div{
@@ -2164,6 +2164,7 @@ body{
 .packing_icon{
     margin:700px auto;
     height: 1300px;
+    width: 100%;
    flex-direction: column;
    align-items: center;
 }
