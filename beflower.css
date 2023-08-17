@@ -1868,11 +1868,7 @@ body{
 
 
 
-
-
-
-
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 
 .home_background{
         height: 350px;
@@ -1880,33 +1876,31 @@ body{
         background-size: cover;
     }
 .navbar{
-    margin: 0px;
+    padding: 0px;
     height: 80px;
-    width: 100%;
-    display: flex;
+    width: 320px;
 }
 .navbar_ul{
-    padding-left: 5px;
+    padding: 0px;
     
 }
 .navbar_logo{
-    margin: 0px;
-    height: 30px;
+    height: 22px;
 }
 .list{
-    font-size: 8px;
-    padding: 0px 10px;
+    font-size: 0.4rem;
+    padding: 0px 1px 0px 1px;
+    line-height: 10px;
 }
 .navbar_right_div{
     padding: 0px;
-    width: 80px;
-    
 }
 .right_anchor{
     font-size: 7px;
 }
 #navbar_icon_cart{
-    margin:20px 0px 0px 20px ;
+    padding: 0px 5px;
+    margin:30px 0px 0px 0px;
     font-size: 12px;
 }
 .cart_count{
@@ -1916,17 +1910,19 @@ body{
     font-size:7px;
     border-radius: 1px;
     top: 0px;
-    left: 28px;
+    left: 14px;
 }
 .navbar_button{
-    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
     height: 18px;
-    width: 70px;
+    width: 60px;
     border-radius: 10px;
+    font-size: 5px;
 }
 #right_button_icon{
-    padding: 2px;
-    font-size: 7px;
+    padding: 1px;
+    font-size: 5px;
 }
 
 
@@ -1936,26 +1932,26 @@ body{
 600 */
 
 .homepage_content{
-    margin: 380px 0px 0px 30px;
+    margin: 380px 0px 0px 0px;
     height: 230px;
-    width: 430px;
+    width: 320px;
 }
 .home_paragraph{
-    margin: 0px;
-    font-size: 50px;
-    line-height: 1;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
 }
 .offer_b1{
     margin: 30px 0px 0px 0px;
     height:40px;
-    width:150px;
+    width:160px;
     padding: 0px 5px;
     font-size: 12px;
     border-radius: 20px;
 }
 #b1_icon{
    padding-left: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -1964,7 +1960,7 @@ body{
 
 .flower_select{
     margin: 0px;
-    padding: 300px 30px 50px 30px;
+    padding: 250px 20px 50px 20px;
     flex-direction: column;
 }
 
@@ -1972,16 +1968,19 @@ body{
 /* flower section2 content */
 
 .flower_pic{
+    margin-top: 30px;
     height: 450px;
-    width: 420px;
+    width: 280px;
 }
 .select_p1{
-    font-size: 35px;
+    font-size: 32px;
     margin: 25px 0px;
 }
 .select_p2{
-    font-size: 16px;
+    width: 100%;
+    font-size: 14px;
     line-height:1.5;
+  
 }
 .select_list{
     padding: 3px 0px;
@@ -2006,19 +2005,22 @@ body{
 
 
 /*---------------- section 3 latest products---------- */
-
+.latest_product{
+    width: 100%;
+    padding:20px 0px;
+}
 .lp_p1{
     font-size: 24px;
-    padding-left: 140px;
+    text-align: center;
+    padding: 0px;
 }
 .lp_maindiv{
     flex-direction: column;
-
+    align-items: center;
 }
 .lp_picbox{
-    margin: 0px 70px;
+    margin: 0px;
     height: 290px;
-    width: 290px;
     border-radius: 10px;
 }
 .lp_pic{
@@ -2029,10 +2031,9 @@ body{
    
 }
 .lp_text{
-    margin: 0px 0px 50px  70px;
-    padding: 15px 0px;
     height: 70px;
     width: 290px;
+    text-align: center;
 }
 .lp_p2{
     margin: 0px;
@@ -2049,24 +2050,26 @@ body{
 /*------------------ section 4 tow profile images -----------*/
 
 .profile_flexdiv{
-    margin: 0px;
-    padding: 20px 40px;
+    margin:0px;
+    width: 100%;
+    padding: 20px 0px;
     flex-direction: column;
+    align-items: center;
 }
 .profile_overflow{
-    margin: 20px 0px;
-    height:400px;
-    width: 400px;
+    margin: 20px;
+    height:350px;
+    width: 100%;
 }
 .profile_bg1{
-    margin: 0px;
-    height:400px;
-    width: 400px;
+    margin:0px;
+    height:350px;
+    width: 100%;
 }
 .profile_center{
     margin: 0px;
-    height:400px;
-    width: 400px;
+    height:350px;
+    width: 100%;
 }
 .profile_pictxt{
     height: 150px;
@@ -2080,8 +2083,8 @@ body{
     font-size: 20px;
 }
 .profile_bg2{
-    height:400px;
-    width: 400px;
+    height:350px;
+    width: 100%;
 }
 
 /* --------section 5 ----------packing safe------ */
@@ -2089,6 +2092,7 @@ body{
 .packing_section{
     margin: 0px;
     height: 2370px;
+    width: 100%;
 }
 .bg_leaf{
     height: 300px;
@@ -2104,35 +2108,35 @@ body{
     width: 20px;
 }
 .logo_text{
-    margin: 5px 10px;
+    margin:10px;
     font-size: 13px;
 }
 .leaf_bgwhite{
     height: 1000px;
-    width: 430px;
+    width: 95%;
     border-radius:20px;
-    margin: 20px 20px;
+    margin:5px 8px;
     flex-direction: column;
 }
 /* -------packing content part--------- */
 
 .packing_content{
     height: 310px;
-    width: 360px;
-    margin: 50px 0px 0px 35px;
+    width: 280px;
+    margin: 50px 0px 0px 15px;
 }
 .packing_line1{
     margin: 0px;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 40px;
 }
 .packing_line2{
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 20px;
    
 }
 .packing_b1{
-    margin: 30px 0px 0px 70px;
+    margin: 30px 0px 0px 30px;
     height:40px;
     width:200px;
     padding: 0px 20px;
@@ -2144,20 +2148,22 @@ body{
 }
 .packing_pic{
     height: 420px;
-    width: 360px;
-    right: 35px;
-    bottom: 200px;
-    top: 450px;
+    width: 100%;
+    right: 25px;
+    bottom: 150px;
+    top: 400px;
 }
 
 /* ---------packing 4 icon--------- */
 
 .packing_icon{
-    margin:700px 90px;
+    margin:700px 0px;
+    height: 1300px;
    flex-direction: column;
+   align-items: center;
 }
 .icon_content{
-    margin: 30px;
+    margin: 35px;
     padding: 10px 0px;
     height: 250px;
     width: 250px;
@@ -2184,10 +2190,12 @@ body{
 
 /* ------------section 6 footer----------- */
 .footer_div{
-    padding: 100px 50px;
+    padding: 100px 0px;
     margin:0px;
     height: 650px;
+    width: 320px!important;
     flex-direction: column;
+    align-items: center;
 }
 .footer_leftdiv{
     height: 120px;
@@ -2203,22 +2211,25 @@ body{
 }
 .footer_centerdiv{
     height: 200px;
-    width: 360px;
+    width: 320px;
 }
 .footer_center_icon{
-    margin: 150px 180px 0px 180px;
+    margin: 150px 0px 0px 160px;
 }
 .center_line1{
+    
+    margin:0px;
     text-align: center;
     font-size:30px ;
-    line-height:45px ;
+    
 }
 .center_line2{
     text-align: center;
     font-size:16px ;
 }
 .footer_rightdiv{
-    margin: 250px 0px 100px 300px;
+   
+    margin: 250px 0px 100px 0px;
     height: 85px;
     width: 100px;
 }
@@ -2235,24 +2246,30 @@ body{
 
 /* ---bottom footer ul------------- */
 .bottom_footer{
-    background-image: url(images/flower2-footer-bg.png);
-    width: 100%;
+    background-image: url(images/homepage/flower2-footer-bg.png);
     background-position: center;
+    background-size: cover;
+    
 }
-
+.footer_ul{
+    padding: 0px;
+}
 .footer_line1{
     margin: 0px;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
 }
 .anchor_footer{
     font-size: 12px;
 }
 .footer_end{
     padding-bottom: 30px;
+   
+    width: 320px;
+    
 }
 .footer_li{
-    margin-left: 1px;
+    margin: 1px;
     font-size: 12px;
 }
 
