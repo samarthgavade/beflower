@@ -1937,12 +1937,12 @@ body{
     width: 320px;
 }
 .home_paragraph{
+    margin-left: 20px;
     font-size: 32px;
-    line-height: 50px;
-    text-align: center;
+    line-height: 45px;
 }
 .offer_b1{
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 30px 20px;
     height:40px;
     width:160px;
     padding: 0px 5px;
@@ -1970,7 +1970,7 @@ body{
 .flower_pic{
     margin-top: 30px;
     height: 450px;
-    width: 280px;
+    width: 100%;
 }
 .select_p1{
     font-size: 32px;
@@ -2018,6 +2018,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.lp_subdiv{
+    margin: 10px auto;
+ }
 .lp_picbox{
     margin: 0px;
     height: 290px;
@@ -2027,7 +2030,7 @@ body{
     margin: 0px;
     border-radius: 10px;
     height: 290px;
-    width: 290px;
+    width: 100%;
    
 }
 .lp_text{
@@ -2057,19 +2060,20 @@ body{
     align-items: center;
 }
 .profile_overflow{
-    margin: 20px;
+    margin: 20px auto;
     height:350px;
-    width: 100%;
+    width: 95%;
 }
 .profile_bg1{
-    margin:0px;
+    margin:0px auto;
     height:350px;
-    width: 100%;
+    width: 95%;
+    background-position: center;
 }
 .profile_center{
-    margin: 0px;
+    margin: 0px auto;
     height:350px;
-    width: 100%;
+    width: 95%;
 }
 .profile_pictxt{
     height: 150px;
@@ -2083,8 +2087,9 @@ body{
     font-size: 20px;
 }
 .profile_bg2{
+    margin: 0px auto;
     height:350px;
-    width: 100%;
+    width: 95%;
 }
 
 /* --------section 5 ----------packing safe------ */
@@ -2109,7 +2114,7 @@ body{
 }
 .logo_text{
     margin:10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 .leaf_bgwhite{
     height: 1000px;
@@ -2136,7 +2141,7 @@ body{
    
 }
 .packing_b1{
-    margin: 30px 0px 0px 30px;
+    margin: 20px 0px 0px 0px;
     height:40px;
     width:200px;
     padding: 0px 20px;
@@ -2157,10 +2162,9 @@ body{
 /* ---------packing 4 icon--------- */
 
 .packing_icon{
-    margin:700px 0px;
+    margin:700px auto;
     height: 1300px;
    flex-direction: column;
-   align-items: center;
 }
 .icon_content{
     margin: 35px;
@@ -2193,7 +2197,7 @@ body{
     padding: 100px 0px;
     margin:0px;
     height: 650px;
-    width: 320px!important;
+    width: 100% !important;
     flex-direction: column;
     align-items: center;
 }
@@ -2210,25 +2214,24 @@ body{
     line-height:30px;
 }
 .footer_centerdiv{
+    margin: 0px auto;
     height: 200px;
-    width: 320px;
+    width: 100%;
+    align-items: center;
 }
 .footer_center_icon{
     margin: 150px 0px 0px 160px;
 }
 .center_line1{
-    
-    margin:0px;
+    margin:0px auto;
     text-align: center;
-    font-size:30px ;
-    
+    font-size:25px;
 }
 .center_line2{
     text-align: center;
-    font-size:16px ;
+    font-size:16px;
 }
 .footer_rightdiv{
-   
     margin: 250px 0px 100px 0px;
     height: 85px;
     width: 100px;
@@ -2252,25 +2255,27 @@ body{
     
 }
 .footer_ul{
+    margin: 16px auto;
     padding: 0px;
 }
 .footer_line1{
-    margin: 0px;
+    margin: 0px auto;
     text-align: center;
-    font-size: 11px;
+    font-size: 14px;
 }
 .anchor_footer{
     font-size: 12px;
 }
 .footer_end{
+    margin: 0px auto;
     padding-bottom: 30px;
-   
-    width: 320px;
-    
+    width: 100%;
+    align-items: center;
 }
 .footer_li{
-    margin: 1px;
-    font-size: 12px;
+    margin: 0px auto;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 
