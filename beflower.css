@@ -725,7 +725,6 @@ body{
 }
 .s3_textbox{
     margin: 0px 300px 30px 300px;
-    /* height: 220px; */
     width:750px;
 
 }
@@ -811,8 +810,12 @@ body{
     color: white;
     text-align: center;
 }
+.div_contact_b1{
+    display: flex;
+    justify-content: center;
+}
 .contact_b1{
-    margin:50px 0px 100px 550px;
+    /* margin:50px 0px 100px 550px; */
     height:50px;
     width:250px;
     padding: 0px 30px;
@@ -2257,7 +2260,7 @@ body{
     
 }
 .footer_ul{
-    margin: 16px auto;
+    margin: 16px 1px;
     padding: 0px;
 }
 .footer_line1{
@@ -2283,39 +2286,46 @@ body{
 
 
 /* ------------page 2 flower ------------ */
+/* .navbar{
+    display: none;
+} */
 
 .flowerpage_bg{
     margin: 0px;
-    height: 300px;
-    width: 100%;
+    height: 350px;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
 }
 
 .flowerpage_content{
     height: 95px;
-    width: 305px;
-    margin: 100px 0px 0px 170px;
+    width: 250px;
+    margin: 180px 0px 0px 20px;
 }
 .flower_paragraph{
     margin: 0px;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 45px;
 }
 
 /* ----------- section 1-------------------- */
 
 .flower_section2{
-    margin: 50px 0px;
-    padding: 50px 50px 0px 50px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     flex-direction: column;
+    align-items: center;
 }
 .right_s2{
-    margin-bottom: 20px;
-    height: 400px;
-    width: 400px;
+    margin: 20px auto;
+    height: 350px;
+    width:95%;
 }
 .center_s2{
-    height: 430px;
-    width: 410px;
+    height: 350px;
+    width: 95%;
     border-radius: 10px;
 }
 .s2_line1{
@@ -2329,9 +2339,8 @@ body{
     line-height:32px ;
 }
 .left_s2{
-    padding-top: 30px;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 95%;
 }
 
 
@@ -2339,17 +2348,18 @@ body{
 /* --------------- flower section 3 -------------- */
 
 .flower_section3{
-    margin: 50px 0px;
+    margin: 50px auto;
+    width: 100%;
 }
 .s3_textbox{
-    margin: 50px;
-    width:400px;
+    margin: 50px auto;
+    width:95%;
 
 }
 .textbox_l1{
-    margin: 0px;
-    font-size:64px ;
-    line-height:72px ;
+    margin: 10px auto;
+    font-size:50px ;
+    line-height:50px ;
 }
 .textbox_l2{
     font-size:16px ;
@@ -2358,13 +2368,14 @@ body{
 
 /* ---------section 3 hover part ------------ */
 .s3_box{
-    margin:0px 50px;
+    margin:0px auto;
     height:650px;
-    width:400px;
+    width:95%;
 }
 .s3box_flex{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     flex-direction: column;
+    align-items: center;
 }
 .box_l1{
     margin: 20px;
@@ -2391,18 +2402,19 @@ body{
     font-size:16px ;
     line-height:35px;
 }
+
 .contact_b1{
-    margin:50px 0px 50px 140px;
-    height:50px;
-    width:250px;
-    padding: 0px 30px;
-    font-size: 14px;
+    margin:50px auto;
+    height:30px;
+    width:150px;
+    padding: 0px 10px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 14px;
 }
 #ic_contact{
-   padding-left: 10px;
-    font-size: 16px;
+    padding-left: 10px;
+    font-size: 10px;
 }
 
 /* -------------------------------------------------------
