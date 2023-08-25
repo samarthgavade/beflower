@@ -2424,27 +2424,26 @@ body{
 
 .productpage_content{
     height: 95px;
-    width: 310px;
-    margin: 120px 0px 0px 150px;
+    width: 250px;
+    margin: 170px 0px 0px 20px;
 }
 .product_paragraph{
     margin: 0px;
-    font-size: 50px;
-    line-height: 95px;
+    font-size: 45px;
 }
 
 /* -----------------product headbar---------- */
 
 .product_headbar{
     height: 80px;
-    margin: 50px 30px;
+    margin: 50px 20px;
 }
 .product_result{
-    margin:30px 15px;
+    margin:30px auto;
     font-size: 14px;
 }
 .sorting{
-    margin:25px;
+    margin:25px auto;
     padding: 0px 5px;
     height: 30px;
 }
@@ -2452,13 +2451,35 @@ body{
 /* ----------- product page section 1 ------------ */
 
 .product_maindiv{
-    margin: 50px 45px;
+    margin: 50px auto;
     flex-direction: column;
+    align-items: center;
 }
 .product_subdiv{
-    margin:20px 0px ;
-   padding: 0px;
+    margin:20px auto;
+    padding: 0px;
+    width: 100%;
 }
+ .product_picbox{
+     margin: 0px auto;
+     height: 300px;
+     width: 95%;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+ .product_pic{
+     margin: 0px auto;
+     border-radius: 10px;
+     height: 300px;
+     width: 100%;
+ }
+ .product_text{
+     margin: 0px;
+     padding-top: 10px;
+     height: 70px;
+     width: 100%;
+ }
+ 
 /* -----------------------------------------------------
 ------------ About US Page 4 -------------------------
 ----------------------------------------------------- */
@@ -2466,152 +2487,177 @@ body{
 
 .aboutpage_bg{
     margin: 0px;
-    height: 1550px;
+    height: 1500px;
     width: 100%;
 }
-
 .aboutpage_content{
-    height: 50px;
-    width: 310px;
-    margin: 200px 0px 0px 100px;
+    height: 100px;
+    width: 95%;
+    margin: 200px auto 100px auto;
 }
 .about_paragraph{
     text-align: center;
-    margin: 0px;
-    font-size: 60px;
-    line-height: 65px;
+    margin: 0px auto;
+    font-size: 48px;
+    line-height: 50px;
 }
 
 /* ---------------- section 1 buy our flower------------ */
 
 .about_usbg{
-    margin: 100px 50px;
+    margin: 50px auto;
     flex-direction: column;
+    align-items: center;
 }
 /* -------ABOUT content part--------- */
 
 .about_content{
-    height: 460px;
-    width: 400px;
-    margin: 80px 0px 0px 0px;
+    height: 500px;
+    width: 95%;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
 }
 .about_line1{
     margin: 0px;
     font-size: 44px;
     line-height: 42px;
     color:#d98921;
+    text-align: center;
 }
 .about_line2{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
+    text-align: center;
 }
 .about_line3{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
+    text-align: center;
+}
+.div_about_b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about_b1{
-    margin:30px 0px 0px 80px;
-    height:50px;
-    width:220px;
-    padding: 0px 10px;
-    font-size: 14px;
-    line-height: 14px;
+    margin: 30px auto;
+    height:40px;
+    width:55%;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 12px;
 }
 .about_pic{
-    height: 500px;
-    width: 390px;
+    height: 450px;
+    width: 95%;
 }
 /* ---------- about text section 2---------- */
 
 .about_text{
-    margin: 0px 50px;
+    margin: 0px auto;
     flex-direction: column;
+    align-items: center;
 }
 .about_txt1{
-    text-align: center;
-    margin-top: 80px;
-    width: 390px;
+    margin: 40px auto;
+    width: 95%;
     font-size: 44px;
     color:#134845;
     font-family: 'Elsie', cursive;
     line-height: 42px;
+    text-align: center;
 }
 .about_txt2{
     text-align: center;
-    margin-top: 0px;
-    width: 400px;
+    margin: 0px;
+    width: 95%;
+}
 
-}
-.about_txt3{
-    font-size:16px;
-    color:#a6b2b1;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 30px;
-}
 
 /* -------- section 3 -- about page -- 4 pics ---- */
 
 .display_four{
-    margin:0px 50px 50px 80px;
+    margin: 0px auto !important;
 }
 .about_d4{
-    margin: 30px;
+    margin: 30px auto !important;
     height: 288px;
-    width: 288px;
+    width: 100%;
     border-radius: 10px;
 }
 /* -----------section about 4------- */
 
 .about_s4{
-    margin: 0px 50px 100px 50px;
+    margin:50px auto;
     flex-direction: column;
+    align-items: center;
 }
 .s4_txt1{
-    margin: 50px 50px 0px 70px;
-    width: 300px;
+    margin:10px auto;
+    width: 95%;
     font-size: 40px;
     line-height: 45px;
+    text-align: center;
 }
 .s4_b1{
-    margin: 50px 50px 0px 100px;
+    margin: 25px auto;
+    height:40px;
+    width:55%;
+    padding: 0px 5px;
+    font-size: 12px;
 }
 .s4_txt2{
-    margin: 50px 0px 0px 0px;
-    width: 390px;
-    text-align: center;
-
+    margin: 10px auto;
+    width: 95%;
+    text-align: left;
 }
 /* --------- section 5----------- */
 
 .s5_usbg{
-    margin:0px;
-    padding:100px 50px 10px 50px;
+    margin:0px auto;
+    /* padding:100px 50px 10px 50px; */
+    padding: 0px;
     background-color: #134845;
-   flex-direction: column;
+    flex-direction: column;
+    align-items: center;
 }
 /* -------ABOUT content part--------- */
 
 .s5_content{
-    height: 500px;
-    width: 400px;
-    margin:50px 0px 50px 0px;
+    height: 600px;
+    width: 95%;
+    margin:10px auto;
+    flex-direction: column;
+    align-items: center;
 }
 .s5_line1{
-    text-align: center;
+    text-align:center;
     margin: 0px;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: 40px;
+    line-height: 45px;
 }
 .s5_line2{
     text-align: center;
-    margin:50px 0px 50px 0px;
+    margin:30px auto;
 }
+.div_s5_b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .s5_b1{
-    margin:10px 0px 0px 100px;
+    margin:20px auto;
+    height:40px;
+    width:45%;
+    padding: 0px 5px;
+    font-size: 12px;
 }
 .s5_pic{
+    margin: 30px auto;
     height: 390px;
-    width: 390px;
+    width: 95%;
 }
 
 /* ------------ section 6 ------------- */
@@ -2619,16 +2665,17 @@ body{
 
 .s6_bg{
     margin: 0px;
-    height: 2400px;
+    height: 2550px;
     width: 100%;
 }
 .s6_flexdiv{
-    padding: 80px 50px 0px 50px;
+    padding: 20px 0px;
     flex-direction: column;
+    align-items: center;
 }
 
 .tree_ic{
-    margin-left: 120px;
+    margin:0px auto; 
     height:160px;
     width: 140px;
 }
@@ -2658,16 +2705,16 @@ body{
 }
 
 .s6_center{
-    width: 400px;
+    width: 95%;
 }
 
 .center_txt1{
     margin-top: 30px;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: 42px;
+    line-height: 50px;
 }
 .people_ic{
-    margin-left: 120px;
+    margin: 10px auto;
     height: 160px;
     width: 140px;
 }
@@ -2675,8 +2722,14 @@ body{
 /* ---------- about us section 7 ------------- */
 
 .s7_icon{
-    margin:50px 50px 50px 100px;
+    margin: 50px auto;
    flex-direction: column;
+   align-items: center;
+}
+.div_contact_b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ---xxxxxxxxxx end page about us xxxxxxxxxxxxxx ------- */
@@ -2694,85 +2747,80 @@ body{
 
 .contactpage_content{
     height: 95px;
-    width: 390px;
-    margin: 200px 0px 0px 70px;
-    display:inline-block;
+    width: 95%;
+    margin:200px auto ;
 }
 .contact_paragraph{
     margin: 0px;
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 50px;
 }
 
 /* ------------ section 1 contact form ------------ */
-
+.contactpage_bg{
+    height: 1500px;
+}
 .formbg_white{
-    margin: 80px 50px;
+    margin:30px auto;
     padding: 0px;
     height: 900px;
-    width: 400px;
+    width: 90%;
     border-radius: 20px;
     flex-direction: column;
 }
 
 .contact_form{
     margin: 0px;
-    height: 850px;
-    width: 360px;
+    height: 500px;
+    width: 95%;
 }
 .form_pic{
-    margin: 20px;
+    margin: 20px auto;
     height: 350px;
-    width: 350px;
+    width: 95%;
 }
 .form_txt{
-    font-size:30px ;
+    font-size:25px ;
     line-height:35px ;
+    text-align: center;
 }
 .form_ip{
     margin:0px 0px 15px 10px ;
     padding-left: 10px;
     border-radius: 60px;
     height: 30px;
-    width: 350px;
+    width: 90%;
 }
 .form_ipm{
     margin:0px 0px 15px 10px ;
     padding-left: 10px;
     border-radius: 20px;
     height: 200px;
-    width: 350px;
+    width: 90%;
 }
-
+.div_form_button{
+    display: flex;
+}
 .form_button{
-    margin-left: 70px;
+    margin: 0px auto;
     border-radius: 60px;
     height: 40px;
-    width: 250px;
+    width: 50%;
+    font-size: 12px;
 }
 
 /* ------- section 2 ----------------- */
 
 .call_flex{
-    margin: 0px;
     background-color:#134845;
     flex-direction: column;
 }
 .call_txt{
-    text-align: center;
-    margin: 0px;
-    font-size: 24px;
-    color:#f8d2a1;
-    font-family: 'Elsie', cursive;
-    line-height: 32px;
+    font-size: 18px;
 }
 .call_no{
-    text-align: center;
-    margin-bottom: 120px;
-    font-size: 40px;
-    color:white;
-    font-family: 'Elsie', cursive;
-    line-height: 45px;
+    margin-bottom: 50px;
+    font-size: 22px;
 }
 
 /* ----------- section 3 --------------- */
@@ -2781,10 +2829,11 @@ body{
     margin: 0px;
     background-color: #134845;
     padding: 0px 0px 0px 0px;
+    width: 100%;
 }
 .add_txt{
-    margin-left: 50px;
-    width: 390px;
+    margin: auto;
+    width: 95%;
 }
 .add_l1{
     margin-top: 0px;
@@ -2797,7 +2846,7 @@ body{
 .add_l2{
     text-align: center;
     margin: 0px;
-    font-size: 40px;
+    font-size: 25px;
     color:white;
     font-family: 'Elsie', cursive;
     line-height: 45px;
@@ -2808,12 +2857,230 @@ body{
 .google_map{
     width: 100%;
     background-color: #134845;
-    padding-left: 50px;
+    padding:8px;
 }
 .gmap{
+    margin: 0px auto;
+    height: 350px;
+    width: 95%;
+}
+
+/* -------------------detail page------------- */
+/* ------SECTION 1 --------------- */
+.detailpage_bg{
     margin: 0px;
     height: 350px;
-    width: 390px;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
 }
+
+.detailpage_content{
+    height: 95px;
+    width: 95%;
+    margin: 200px auto ;
+    text-align: center;
+}
+.detail_paragraph{
+    margin: 0px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.flower_detail{
+    height: 800px;
+    margin: 50px auto;
+    flex-direction: column;
+    align-items: center;
+}
+.left_img{
+    margin: 0px auto;
+    height: 500px;
+    width: 95%;
+}
+.right_detail{
+    width: 95%;
+}
+.flower_name{
+    margin: 5px auto;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+}
+.hr_line{
+    color:  lightgrey;
+    align-items: center;
+}
+.flower_cost{
+    margin: 0px auto;
+    font-size: 23px;
+    text-align: center;
+}
+.flower_txt{
+    font-size: 15px;
+    line-height: 25px;
+}
+.type_box{
+    margin: 0px;
+    width: 95%;
+}
+.type_flex{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.type_l1{
+    margin: 5px auto;
+    font-size:15px ;
+    line-height:25px ;
+}
+.type{
+    margin:10px auto;
+    width: 70%;
+    height: 30px;
+}
+.ip_number{
+    padding-left: 10px;
+    margin-top:20px ;
+    height: 40px;
+    width: 15%;
+}
+.type_b1{
+    width: 65%;
+    font-size: 12px;
+}
+.catogery_txt{
+    font-size: 15px;
+    line-height:25px ;
+    text-align: center;
+}
+.txt_icon{
+    font-size: 16px;
+    line-height:30px ;
+    text-align: center;
+}
+/* ------------description section 3- ------ */
+
+.description_bg{
+    margin: 0px auto;
+    height: 1050px;
+    width: 95%;
+}
+.desc_p1{
+    margin:20px auto;
+    text-align: center;
+}
+.desc_usbg{
+    margin: 20px auto;
+    height: 980px;
+    flex-direction: column;
+    align-items: center;
+}
+/* -------details content part--------- */
+
+.desc_content{
+    width: 95%;
+    margin: 10px auto;
+}
+.desc_line1{
+    margin: 0px auto;
+    font-size: 35px;
+    line-height: 40px;
+}
+.desc_line2{
+    font-size: 16px;
+    color: #a6b2b1;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+}
+.div_desc_pic{
+    margin: 0px auto;
+}
+.desc_pic{
+    margin: 10px auto;
+    height: 300px;
+    width: 95%;
+    border-radius: 12px;
+}
+/* -------- detalis page section 4 logo icon-------- */
+
+.description_icon{
+    margin:0px auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------details page section 5 part--------- */
+
+.desc_s5{
+    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
+}
+.s5_desc{
+    padding-top: 20px;
+    height: 430px;
+    width: 95%;
+    margin:0px auto;
+}
+.s5_l1{
+    margin: 0px auto;
+    font-size: 34px;
+    line-height: 40px;
+}
+.s5_l2{
+    font-size: 14px;
+    line-height: 25px;
+}
+.s5_img{
+    margin: 0px auto;
+    height: 350px;
+    width: 95%;
+}
+
+/* ----------- section6 detalis page-------- */
+
+.d_product{
+    margin: 20px auto;
+    padding:0px;
+}
+.d_p1{
+    font-size: 24px;
+    color:#134845;
+}
+.d_maindiv{
+    margin: 0px auto;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+}
+.d_picbox{
+    margin: 0px auto;
+    height: 300px;
+    width: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.d_pic{
+    margin: 0px auto;
+    border-radius: 10px;
+    height: 300px;
+    width: 95%;
+    transition: transform 0.5s;
+}
+.d_text{
+    margin: 0px;
+    padding-top: 10px;
+    height: 70px;
+    width: 95%; 
+}
+.d_name{
+    font-size: 18px;
+}
+.d_price{
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+/* -----------xxxxxxxxxxx end details page xxxxxxxxxxxx---- */
+
 /* -------------- xxxxxxxxxxx END PAGE XXXXXXXXXXX------------- */
 }
